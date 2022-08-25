@@ -1,8 +1,14 @@
 body {
   margin: 0 0 0 0;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(50,49,99,1) 48%, rgba(103,103,168,1) 69%, rgba(167,216,226,1) 100%);
-  
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 18%,
+    rgba(50, 49, 99, 1) 48%,
+    rgba(103, 103, 168, 1) 69%,
+    rgba(167, 216, 226, 1) 100%
+  );
+
   p {
     margin: 0 0 0 0;
   }
@@ -15,7 +21,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(50,49,99,1) 48%, rgb
   margin: 40px auto 0px auto;
   background-color: #0200246b;
   border-radius: 25px;
-  border: #5e5e5e solid 3px;
+  border: #7c8cbba6 solid 3px;
   align-items: center;
   justify-content: center;
   font-size: 30px;
@@ -27,5 +33,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(50,49,99,1) 48%, rgb
   background-color: #cbcbcb0d;
   border-radius: 5px;
   padding: 20px 10px 20px 10px;
-}
 
+  button{
+    width:100px;
+    height: 40px;
+
+  }
+}
